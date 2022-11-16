@@ -1,0 +1,203 @@
+:root {
+     --DarkViolet: hsl(256, 26%, 20%);
+    --Grayish-Blue: hsl(216, 30%, 68%);
+    --VeryLight-Gray: hsl(0, 0%, 98%);
+
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.upper {
+  text-transform: uppercase;
+}
+.content-container {
+  width: 80%;
+  max-width: 1928px;
+  margin: auto;
+}
+header {
+  position: relative;
+  height: 85px; 
+  z-index: 100;
+  display: flex;
+  justify-content: center; 
+  background-color: white;
+} 
+
+header .content-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center; 
+  position: absolute;
+  padding: 25px 0;
+}
+header ul {
+  display:  flex;
+  list-style: none;
+}
+header ul li {
+  padding: 5px 15px; 
+}
+header li:last-child {
+  padding-right: 0;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+header li button {
+  border : 2px solid var(--DarkViolet);
+  background-color: transparent;
+  color: black;
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+.flex-main {
+  display:  flex;
+  flex-direction: column;
+}
+.purple {
+  background-color: var(--DarkViolet);
+  color: #fff;
+}
+.purple-big-banner {
+  margin-bottom: 250px;
+  height: 66vh;
+  max-height: 550px;
+  position: relative;
+
+}
+.purple-big-banner .content {
+  padding-right: 25px;
+}
+.purple-big-banner .pattern-right {
+  position: absolute;
+  right: 0px;
+  top: -210px;
+}
+.purple-big-banner .pattern-left {
+  position: absolute;
+  top: 300px;
+}
+ .content-container {
+  display:  flex; 
+}
+.content-container .content {
+  margin-top: 65px;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+hr {
+  width: 180px;
+  margin-bottom: 40px;
+}
+h1 {
+  font-size: 75px;
+  line-height: .85;
+  font-family: 'DM Serif Display', serif;
+
+}
+.content-container .content p {
+  margin: 30px 0;
+}
+button {
+  background-color: var(--DarkViolet);
+  color: #fff;
+  border : 2px solid;
+  padding: 5px 20px;
+  font-size: .8em;
+}
+.purple img {
+  margin-top: 65px;
+}
+.content .flex {
+  display:  flex;
+  margin-top: 60px;
+}
+.flex p {
+  padding-right: 25px;
+}
+.flex img {
+  margin-bottom: 30px;
+}
+.small-banner {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  height: 250px;
+  align-items: center;
+  position: relative;
+}
+.small-banner > * {
+  align-content: center;
+}
+.small-banner h2 {
+  font-size: 45px;
+  margin: auto 60px;
+}
+.small-banner button {
+  position: relative;
+  z-index: 1;
+  margin-right: 55px;
+  color: var(--VeryLight-Gray);
+}
+.small-banner .right-pattern-small {
+  position: absolute;
+  right: 0px;
+  top: -65px; 
+}
+.small-banner div:first-child {
+  flex-grow: 1;
+}
+.flex { 
+  display:  flex;
+}
+footer {
+  background-color: var(--VeryLight-Gray);
+  position: relative;
+}
+footer img {
+  position: absolute;
+}
+footer hr {
+  opacity: 0.5;
+  border-left: none;
+}
+.footer-top .content-container {
+  justify-content: space-between; 
+  padding-top: 40px;
+}
+.footer-bottom {
+  justify-content: space-between;
+ text-transform: uppercase;
+}
+.footer-bottom .title {
+  color: rgb(129, 126, 126);
+  margin-bottom: 2em;
+  font-size: .8em;
+}
+.footer-bottom li {
+  text-transform: uppercase;
+  font-size: .8em;
+  list-style: none;
+  margin-top: 10px;
+}
+.flex.social > * {
+  margin-right: 10px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+.attribution { 
+  font-size: 12px;
+  padding: 10px 0;
+  text-align: center; 
+  margin: auto;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+ 
+ }
